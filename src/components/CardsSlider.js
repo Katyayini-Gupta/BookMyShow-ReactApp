@@ -1,60 +1,29 @@
-import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
+import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
 function CardsSlider() {
   return (
-    <div style={{marginBottom: "5%", background: "grey", padding: "5%"}}>
+    <div style={{paddingBottom: "5%", background:"#e5e4e2", padding: "5%",paddingRight:"8%",paddingLeft:"8%"}}>
+      <h2 style={{fontFamily: "Roboto", fontSize: "24px", fontWeight: "700"}}>The Best of Entertainment</h2>
       <Carousel fade variant="dark" indicators={false}>
         <Carousel.Item>
           <CardGroup style={{display: "flex", justifyContent: "space-around", gap: "30px"}}>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/1.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/2.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/3.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/4.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
           </CardGroup>
@@ -63,52 +32,20 @@ function CardsSlider() {
         <Carousel.Item>
           <CardGroup style={{display: "flex", justifyContent: "space-around", gap: "30px"}}>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/5.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/6.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/7.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
-            <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-              <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-              <Card.ImgOverlay>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </Card.Text>
-                <Card.Text>Last updated 3 mins ago</Card.Text>
-              </Card.ImgOverlay>
+            <Card className="text-white" style={{borderRadius: "25px"}}>
+              <Card.Img src="./entertainment/8.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
             </Card>
 
           </CardGroup>
@@ -117,52 +54,20 @@ function CardsSlider() {
         <Carousel.Item>
           <CardGroup style={{display: "flex", justifyContent: "space-around", gap: "30px"}}>
 
-          <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-            <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-            <Card.ImgOverlay>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
+          <Card className="text-white" style={{borderRadius: "25px"}}>
+            <Card.Img src="./entertainment/9.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
           </Card>
 
-          <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-            <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-            <Card.ImgOverlay>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
+          <Card className="text-white" style={{borderRadius: "25px"}}>
+            <Card.Img src="./entertainment/10.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
           </Card>
 
-          <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-            <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-            <Card.ImgOverlay>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
+          <Card className="text-white" style={{borderRadius: "25px"}}>
+            <Card.Img src="./entertainment/11.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
           </Card>
 
-          <Card className="bg-dark text-white" style={{height: "250px", width: "250px"}}>
-            <Card.Img src="./logo192.png" alt="Card image" style={{height: "250px", width: "250px"}}/>
-            <Card.ImgOverlay>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This content is a little bit longer.
-              </Card.Text>
-              <Card.Text>Last updated 3 mins ago</Card.Text>
-            </Card.ImgOverlay>
+          <Card className="text-white" style={{borderRadius: "25px"}}>
+            <Card.Img src="./entertainment/12.jfif" alt="Card image" style={{borderRadius: "25px"}}/>
           </Card>
 
           </CardGroup>

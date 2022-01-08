@@ -1,42 +1,49 @@
-import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
+import Carousel from 'react-bootstrap/Carousel';
+import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Image from 'react-bootstrap/Image';
 
 function Premieres() {
   return (
-    <div style={{ background: "rgb(43,49,72)", padding: "5%"}}>
-      <h2 style={{color: "white"}}>Premieres</h2>
+    <div style={{ background: "rgb(43,49,72)", padding: "5%",paddingRight:"8%",paddingLeft:"8%",paddingTop:"2%"}}>
+      <Image src="./premiere.jfif" style={{width:"100%", paddingBottom:"4%"}}></Image>
+      <h2 style={{color: "white",fontFamily: "Roboto", fontSize: "24px", fontWeight: "700"}}>Premieres</h2>
       <Carousel fade variant="dark" indicators={false}>
         <Carousel.Item>
-          <CardGroup>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+          <CardGroup style={{display: "flex", justifyContent: "space-around", gap: "30px"}}>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/1.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/2.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This card has supporting text below as a natural lead-in to additional
-                  content.{' '}
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/3.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to
-                  show that equal height action.
+                  Movie Language
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/4.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
+                <Card.Text>
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -44,35 +51,40 @@ function Premieres() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <CardGroup>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+          <CardGroup style={{display: "flex", justifyContent: "space-around", gap: "30px"}}>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/5.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/6.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This card has supporting text below as a natural lead-in to additional
-                  content.{' '}
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card>
-              <Card.Img variant="top" src="./logo192.png" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/7.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to
-                  show that equal height action.
+                  Movie Language
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{background:"rgb(43,49,72)", border: "none"}}>
+              <Card.Img variant="top" src="./premiere/8.jpg" style={{borderRadius: "18px"}}/>
+              <Card.Body style={{color: "white"}}>
+                <Card.Title>Movie Title</Card.Title>
+                <Card.Text>
+                  Movie Language
                 </Card.Text>
               </Card.Body>
             </Card>

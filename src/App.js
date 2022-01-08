@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import SliderImages from './components/SliderImages';
 import CardsSlider from './components/CardsSlider';
 import Premieres from './components/Premieres';
+import Recommendation from './components/Recommendation';
 import Footer from './components/Footer';
 //import AllMovies from './components/AllMovies';
 import AllMoviesFetch from './components/AllMoviesFetch';
@@ -23,6 +24,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <SliderImages/>
+            <Recommendation/>
             <CardsSlider/>
             <Premieres/>
           </Route>
