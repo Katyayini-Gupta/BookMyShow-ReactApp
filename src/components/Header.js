@@ -1,7 +1,7 @@
-import './Header.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
@@ -14,24 +14,15 @@ function Header() {
         <Container>
           <Navbar.Brand href="/">BookMyShow</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll" gap-5>
-          <Form className="d-flex">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+          <Navbar.Collapse id="navbarScroll" style={{display: "flex", justifyContent: "space-around", gap: "35%"}}>
+            <input type = "search" style={{background:"white", border: "none", borderRadius: "5px", padding: "0.6%", width:"50%"}} placeholder = "Search for Movies, Events, Plays, Sports and Activities" />
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/movies">All Movies</Nav.Link>
-              <Nav.Link href="/register">User Registration</Nav.Link>
+            <NavDropdown title="Pune" id="basic-nav-dropdown"></NavDropdown>
+            <Nav.Link href="/register"><Button variant="danger" style={{fontSize:"11px"}}>Sign In</Button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

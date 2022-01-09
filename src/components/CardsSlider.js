@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function CardsSlider() {
   return (
-    <div style={{paddingBottom: "5%", background:"#e5e4e2", padding: "5%",paddingRight:"8%",paddingLeft:"8%"}}>
+    <div style={{paddingBottom: "5%", background:"#f5f5f5", padding: "5%",paddingRight:"8%",paddingLeft:"8%"}}>
       <h2 style={{fontFamily: "Roboto", fontSize: "24px", fontWeight: "700"}}>The Best of Entertainment</h2>
       <Carousel fade variant="dark" indicators={false}>
         <Carousel.Item>

@@ -1,9 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
+import Header from './components/Header';
 import SliderImages from './components/SliderImages';
 import CardsSlider from './components/CardsSlider';
 import Premieres from './components/Premieres';
 import Recommendation from './components/Recommendation';
+import Happening from './components/Happening';
 import Footer from './components/Footer';
 //import AllMovies from './components/AllMovies';
 import AllMoviesFetch from './components/AllMoviesFetch';
@@ -27,6 +28,7 @@ function App() {
             <Recommendation/>
             <CardsSlider/>
             <Premieres/>
+            <Happening/>
           </Route>
           <Route exact path="/movies">
             <AllMoviesFetch />
