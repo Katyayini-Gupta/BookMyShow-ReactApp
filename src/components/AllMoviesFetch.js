@@ -161,7 +161,7 @@ function AllMoviesFetch() {
                                             <Card.Img variant="top" src={mov.imageurl} />
                                             <Card.Body>
                                             <Card.Title>{mov.title}</Card.Title>
-                                            <Card.Text>{mov.actor}</Card.Text>
+                                            <Card.Text>{mov.genres}</Card.Text>
                                             </Card.Body>
                                         </Card>
                                     </Col>
