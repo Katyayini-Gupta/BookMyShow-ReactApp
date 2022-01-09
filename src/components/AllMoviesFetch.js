@@ -158,7 +158,7 @@ function AllMoviesFetch() {
                                 {data.map((mov) =>
                                     <Col id={mov._id} key={mov.id} xs={6} md={4} lg={3} style={{marginBottom:"2%"}}>
                                         <Card style={{cursor:"pointer"}} onClick={()=> window.location.href="/movies/"+mov._id }>
-                                            <Card.Img style={{height:"220px",width:"150px"}}variant="top" src={mov.imageurl} />
+                                            <Card.Img variant="top" src={mov.imageurl} />
                                             <Card.Body>
                                             <Card.Title>{mov.title}</Card.Title>
                                             <Card.Text>{mov.genres}</Card.Text>
