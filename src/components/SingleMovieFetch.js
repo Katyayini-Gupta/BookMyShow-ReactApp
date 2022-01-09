@@ -23,7 +23,7 @@ function SingleMovieFetch() {
 
     return (
         <div>
-            <Container fluid style={{padding:"5%", background:"pink"}}>
+            <Container fluid style={{padding:"5%", background:"#f5f5f5"}}>
                 <Row style={{textAlign:"center"}}>
                     {singledata.map((mov) => {
                         return (

@@ -7,7 +7,7 @@ import data from "./movies.json";
 function AllMovies() {
     return (
         <div>
-            <Container fluid style={{padding:"5%", background:"pink"}}>
+            <Container fluid style={{padding:"5%", background:"#f5f5f5"}}>
                 <Row style={{textAlign:"center"}}>
                     {data.map((mov) =>
                         <Col id={mov.id} key={mov.id} xs={6} md={4} lg={3} style={{marginBottom:"2%"}}>

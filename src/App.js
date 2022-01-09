@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import SliderImages from './components/SliderImages';
+import SliderImages2 from './components/SliderImages2';
 import CardsSlider from './components/CardsSlider';
 import Premieres from './components/Premieres';
 import Recommendation from './components/Recommendation';
@@ -31,6 +32,7 @@ function App() {
             <Happening/>
           </Route>
           <Route exact path="/movies">
+            <SliderImages2 />
             <AllMoviesFetch />
           </Route>
           <Route exact path="/movies/:movid">
