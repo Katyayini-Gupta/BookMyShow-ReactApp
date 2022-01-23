@@ -9,6 +9,7 @@ import Form from "react-bootstrap/Form";
 import axios from "axios";
 import {useState, useEffect} from 'react';
 import { FaAngleDown } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 
 function AllMoviesFetch() {
     const [data, setData] = useState([]);
@@ -154,12 +155,17 @@ function AllMoviesFetch() {
                                     <Button variant="outline-secondary" style={{color: "red",fontSize:"13px",borderRadius:"25px",marginRight:"0.5%",background:"white"}}>Kannada</Button>
                                 </Form>
                             </Container>
-                            <Row style={{textAlign:"center"}}>
+                            <Row style={{textAlign:"left"}}>
                                 {data.map((mov) =>
                                     <Col id={mov._id} key={mov.id} xs={6} md={4} lg={3} style={{marginBottom:"2%"}}>
-                                        <Card style={{cursor:"pointer"}} onClick={()=> window.location.href="/movies/"+mov._id }>
+                                        <Card style={{cursor:"pointer",border:"none"}} onClick={()=> window.location.href="/movies/"+mov._id }>
                                             <Card.Img variant="top" src={mov.imageurl} />
-                                            <Card.Body>
+                                            <Card.Footer style={{backgroundColor:"black",borderBottomLeftRadius:"10px",borderBottomRightRadius:"10px", padding:"0.25rem 0.75rem"}} >
+                                                <FaHeart style={{color:"red"}} />
+                                                <small className="text-white">    {mov.likes} %</small>
+                                                <small className="text-white">    {mov.votes}k votes</small>
+                                            </Card.Footer>
+                                            <Card.Body style={{background:"#f5f5f5"}}>
                                             <Card.Title>{mov.title}</Card.Title>
                                             <Card.Text>{mov.genres}</Card.Text>
                                             </Card.Body>
